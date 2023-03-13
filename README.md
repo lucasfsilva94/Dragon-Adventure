@@ -2,7 +2,7 @@
     <img alt="dragon" src="https://user-images.githubusercontent.com/22107794/224592998-d76532de-6123-4708-9194-1d6174542c8f.png" />
 </p>
 
-## 🎮 Game
+## 🎮 Project
 
 Unity Game of Dragon's Adventure
 

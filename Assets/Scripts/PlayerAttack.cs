@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerAttack : MonoBehaviour
 {
@@ -16,24 +17,22 @@ public class PlayerAttack : MonoBehaviour
         playerMovement = GetComponent<PlayerMovement>();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
-        if(Input.GetMouseButton(0) && cooldownTimer > attackCooldown && playerMovement.canAttack())
-        {
-            Attack();
-        }
-
         cooldownTimer += Time.deltaTime;
     }
 
-    private void Attack()
+    public void Attack(InputAction.CallbackContext context)
     {
-        anim.SetTrigger("attack");
-        cooldownTimer = 0;
+        if (context.performed && cooldownTimer > attackCooldown && playerMovement.canAttack())
+        {
+            anim.SetTrigger("attack");
+            cooldownTimer = 0;
 
-        // pool fireball
-        fireballs[FindFireball()].transform.position = firePoint.position;
-        fireballs[FindFireball()].GetComponent<Projectile>().SetDiretion(Mathf.Sign(transform.localScale.x));
+            // pool fireball
+            fireballs[FindFireball()].transform.position = firePoint.position;
+            fireballs[FindFireball()].GetComponent<Projectile>().SetDiretion(Mathf.Sign(transform.localScale.x));
+        }
     }
 
     private int FindFireball()

@@ -7,8 +7,8 @@
 Unity Game of Dragon's Adventure
 
 ## 🛠 Assets
-- [Dragon Warrior Asset](https://assetstore.unity.com/packages/2d/characters/dragon-warrior-free-93896)
-- [Pixel Adventure Asset](https://assetstore.unity.com/packages/2d/characters/pixel-adventure-1-155360)
+- [Dragon Warrior](https://assetstore.unity.com/packages/2d/characters/dragon-warrior-free-93896)
+- [Pixel Adventure](https://assetstore.unity.com/packages/2d/characters/pixel-adventure-1-155360)
 
 ## 🚀 Playing the game
 

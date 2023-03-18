@@ -3,8 +3,9 @@
 </p>
 
 <div align="center">
-    
-[![Unity Version](https://img.shields.io/badge/unity_version-2021.3.19-blue)](https://unity3d.com/get-unity/download/archive)
+   
+   [![Unity Version](https://img.shields.io/badge/Engine-Unity%202021.3.19.f1-blue)](https://unity3d.com/get-unity/download/archive)
+   [![Unity Version](https://img.shields.io/badge/Version-v1.0(Alpha)-blueviolet)](https://lucasfsilva94.github.io/dragon-adventure/)   
 </div>
 
 ## 🎮 Project

@@ -26,8 +26,15 @@ You can play it on: https://lucasfsilva94.github.io/dragon-adventure/
 | Mouse Left Click  | Fire  |
 | Space  | Jump  |
 
-## ⌨ How to view/edit the code:
-1. Clone the project locally.
-2. Open the folder with the latest LTS version of Unity (currently 2021.3.19f1) using Unity Hub.
+## ⌨ How to run the project
+
+### Dependency
+ 1. Install [Unity Hub](https://unity.com/download)
+ 2. Install Unity 2021.3.19f1 version
+ 3. Clone repository
+    ```
+    git clone https://github.com/lucasfsilva94/dragon-adventure.git
+    ```
+ 4. Run Unity and build project
 ---
 

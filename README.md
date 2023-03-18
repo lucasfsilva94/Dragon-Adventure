@@ -20,6 +20,12 @@ Unity Game of Dragon's Adventure
 
 You can play it on: https://lucasfsilva94.github.io/dragon-adventure/
 
+| Controls | Action |
+| ------------- | ------------- |
+| W,A,S,D  | Move  |
+| Mouse Left Click  | Fire  |
+| Space  | Jump  |
+
 ## ⌨ How to view/edit the code:
 1. Clone the project locally.
 2. Open the folder with the latest LTS version of Unity (currently 2021.3.19f1) using Unity Hub.
